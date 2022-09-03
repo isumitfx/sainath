@@ -36,7 +36,7 @@ http://www.templatemo.com/tm-511-journey
                         <nav class="navbar navbar-expand-lg narbar-light">
                             <a class="navbar-brand mr-auto" href="#">
                                 <img src="img/logo.png" alt="Site logo">
-                                Sainath Travels
+                                Sainath
                             </a>
                             <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -48,6 +48,9 @@ http://www.templatemo.com/tm-511-journey
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#tm-section-2">Top Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Bus Ticket</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="https://wa.me/message/XVAWGISNG2QMD1">WhatsApp Us</a>
@@ -67,7 +70,7 @@ http://www.templatemo.com/tm-511-journey
                         <div class="row tm-banner-row tm-banner-row-header">
                             <div class="col-xs-12">
                                 <div class="tm-banner-header">
-                                    <h1 class="text-uppercase tm-banner-title">Let's begin</h1>
+                                    <h1 class="text-uppercase tm-banner-title">WELCOME TO SAINATH TRAVELS</h1>
                                     <img src="img/dots-3.png" alt="Dots">
                                     <p class="tm-banner-subtitle">We assist you to choose the best.</p>
                                     <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>       
@@ -80,9 +83,7 @@ http://www.templatemo.com/tm-511-journey
                                 <div class="form-row tm-search-form-row">                                
                                     <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
                                         <label for="inputCity">Full Name</label>
-                                        <input name="destination" type="text" class="form-control" id="inputName" placeholder="Type your name...">
-										<label for="inputCity">Mobile Number</label>
-                                        <input name="destination" type="text" class="form-control" id="inputMobile" placeholder="Type your mobile number...">
+                                        <input name="destination" type="text" class="form-control" id="inputCity" placeholder="Enter your full name...">
                                     </div>
                                     <div class="form-group tm-form-group tm-form-group-1">                                    
                                         <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
@@ -96,31 +97,47 @@ http://www.templatemo.com/tm-511-journey
                                             </select>                                        
                                         </div>
                                         <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">                                       
-                                            <label for="inputCheckIn">Journey Date</label>
-											<input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Select Date">                                        
+                                            <label for="inputAdult">From</label>     
+                                            <select name="adult" class="form-control tm-select" id="inputAdult">
+                                                <option value="1" selected>Burla</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>                                        
+                                        </div>
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+
+                                            <label for="inputChildren">To</label>                                            
+                                            <select name="children" class="form-control tm-select" id="inputChildren">
+                                            	<option value="0" selected>Sambalpur</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>                                        
                                         </div>
                                     </div>
                                 </div> <!-- form-row -->
                                 <div class="form-row tm-search-form-row">
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
-                                            <label for="inputRoom">From</label>
-                                            <select name="room" class="form-control tm-select" id="inputRoom">
-                                                <option value="Sedan" selected>Sedan</option>
-                                                <option value="Prime Sedan">Prime Sedan</option>
-                                                <option value="SUV">SUV</option>
-                                                <option value="Hatchback">Hatchback</option>
-                                                <option value="MPV">MPV (Innova Crysta)</option>
-                                            </select>                                        
+
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label>Journey Date</label>
+                                        <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Choose your journey date">
                                     </div>
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
-                                            <label for="inputRoom">To</label>
-                                            <select name="room" class="form-control tm-select" id="inputRoom">
-                                                <option value="Sedan" selected>Sedan</option>
-                                                <option value="Prime Sedan">Prime Sedan</option>
-                                                <option value="SUV">SUV</option>
-                                                <option value="Hatchback">Hatchback</option>
-                                                <option value="MPV">MPV (Innova Crysta)</option>
-                                            </select>                                        
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label>Mobile Number</label>
+                                        <input name="check-out" type="text" class="form-control" id="inputMobile" placeholder="Enter your mobile number">
                                     </div>
                                     <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
                                         <label for="btnSubmit">&nbsp;</label>
@@ -150,7 +167,9 @@ http://www.templatemo.com/tm-511-journey
             <div class="tm-container-outer" id="tm-section-2">
                 <section class="tm-slideshow-section">
                     <div class="tm-slideshow">
-                        <img src="img/tm-img-01.jpg" alt="Image">   
+                        <img src="img/tm-img-01.jpg" alt="Image">
+                        <img src="img/tm-img-02.jpg" alt="Image">
+                        <img src="img/tm-img-03.jpg" alt="Image">    
                     </div>
                     <div class="tm-slideshow-description tm-bg-primary">
                         <h2 class="">Europe's most visited places</h2>
@@ -162,7 +181,10 @@ http://www.templatemo.com/tm-511-journey
 
                     <div class="tm-right tm-slideshow tm-slideshow-highlight">
                         <img src="img/tm-img-02.jpg" alt="Image">
+                        <img src="img/tm-img-03.jpg" alt="Image">
+                        <img src="img/tm-img-01.jpg" alt="Image">
                     </div> 
+
                     <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
                         <h2 class="">Asia's most popular places</h2>
                         <p>Vivamus in massa ullamcorper nunc auctor accumsan ac at arcu. Donec sagittis mattis pharetra. Proin commodo, ante et volutpat pulvinar, arcu arcu ullamcorper diam, id maximus sem tellus id sem. Suspendisse eget rhoncus diam. Fusce urna elit, porta nec ullamcorper id.</p>
@@ -173,28 +195,8 @@ http://www.templatemo.com/tm-511-journey
                 <section class="tm-slideshow-section">
                     <div class="tm-slideshow">
                         <img src="img/tm-img-03.jpg" alt="Image">
-                    </div>
-                    <div class="tm-slideshow-description tm-bg-primary">
-                        <h2 class="">America's most famous places</h2>
-                        <p>Donec nec laoreet diam, at vehicula ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nec dapibus nunc, quis viverra metus. Morbi eget diam gravida, euismod magna vel, tempor urna.</p>
-                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
-                    </div>
-                </section>
-				<section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
-
-                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
                         <img src="img/tm-img-02.jpg" alt="Image">
-                    </div> 
-                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
-                        <h2 class="">Asia's most popular places</h2>
-                        <p>Vivamus in massa ullamcorper nunc auctor accumsan ac at arcu. Donec sagittis mattis pharetra. Proin commodo, ante et volutpat pulvinar, arcu arcu ullamcorper diam, id maximus sem tellus id sem. Suspendisse eget rhoncus diam. Fusce urna elit, porta nec ullamcorper id.</p>
-                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
-                    </div>                        
-
-                </section>
-				<section class="tm-slideshow-section">
-                    <div class="tm-slideshow">
-                        <img src="img/tm-img-03.jpg" alt="Image">
+                        <img src="img/tm-img-01.jpg" alt="Image">
                     </div>
                     <div class="tm-slideshow-description tm-bg-primary">
                         <h2 class="">America's most famous places</h2>
@@ -202,12 +204,13 @@ http://www.templatemo.com/tm-511-journey
                         <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
                     </div>
                 </section>
-            </div>        
-            
+            </div>
+			
+
             <footer class="tm-container-outer">
-                <p class="mb-0">Copyright © <span class="tm-current-year">2022</span> Sainath 
+                <p class="mb-0">Copyright © <span class="tm-current-year">2022</span> Sainath Travels
                     
-                . Designed by <a rel="nofollow" href="http://www.instagram.com/_1x96_" target="_parent">Sumit</a></p>
+                . Designed by <a rel="nofollow" href="https://instagram.com/_1x96_" target="_parent">Sumit</a></p>
             </footer>
         </div>
     </div> <!-- .main-content -->
@@ -275,7 +278,6 @@ http://www.templatemo.com/tm-511-journey
 
             // Date Picker in Search form
             var pickerCheckIn = datepicker('#inputCheckIn');
-            var pickerCheckOut = datepicker('#inputCheckOut');
 
             // Update nav links on scroll
             $('#tm-top-bar').singlePageNav({
