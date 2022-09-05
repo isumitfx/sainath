@@ -512,7 +512,7 @@ footer p { color: white; }
 @media screen and (max-width: 991px) {
     .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link {
         padding: 15px 20px;
-        background: white;
+        background: black;
     }
 
     .tm-top-bar, .tm-top-bar-bg { height: auto; }
