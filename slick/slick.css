@@ -101,6 +101,7 @@
 .slick-initialized .slick-slide
 {
     display: block;
+	border-radius: 30px;
 }
 .slick-loading .slick-slide
 {
